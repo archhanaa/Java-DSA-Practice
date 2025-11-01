@@ -1,11 +1,19 @@
-# Recursion Programs
+# Recursion Programs (Java)
 
-This folder contains recursion-based Java programs:
+This folder contains simple Java programs that use recursion. These help in understanding how a problem can be solved by calling the same function repeatedly with a smaller input.
 
-## ✅ Factorial.java
-- Calculates factorial using recursion.
+## Factorial.java
+Calculates the factorial of a number using recursion.
+Example: 5! = 120
 
-## ✅ Fibonacci.java
-- Generates Fibonacci numbers using recursion.
+## Fibonacci.java
+Returns the nth number in the Fibonacci series using recursion.
+Example: Input: 5 → Output: 5
 
-More recursion problems will be added here.
+## SumOfDigits.java
+Finds the sum of all digits of a number by repeatedly taking the last digit and removing it.
+
+## CountDigits.java
+Counts how many digits are present in a number using recursion.
+
+
