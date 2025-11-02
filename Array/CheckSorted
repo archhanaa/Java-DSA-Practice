@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class CheckSorted{
+public static void main(String[]args){
+int[] array = {30,12,2,67,88};
+boolean check = true;
+for(int i=0;i<array.length-1;i++){
+if(array[i]>array[i+1]){
+check = false;
+System.out.println("Is not Sorted");
+break;
+}
+}
+if(check){
+System.out.println("Sorted");
+}
+}
+}
