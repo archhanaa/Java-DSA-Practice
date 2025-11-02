@@ -1,0 +1,25 @@
+# Arrays in Java
+
+An array is used to store multiple values of the same data type in one variable. 
+Array indexing starts from 0 and ends at length-1.
+
+Example:
+int[] arr = {10, 20, 30, 40};
+
+We can access values using index:
+arr[0] → 10
+
+We can loop through the array using a for loop and print elements.
+
+Today I practiced:
+• Printing elements
+• Finding max/min
+• Reverse array
+• Second largest/smallest
+• Counting even/odd
+• Linear search
+• Checking if sorted
+
+Arrays feel clearer now and I'm becoming more confident with DSA basics.
+
+
