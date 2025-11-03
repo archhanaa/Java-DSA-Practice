@@ -1,0 +1,38 @@
+class UniqueElements {
+    public static void main(String[] args) {
+
+        int[] array = {10, 10, 1, 2, 30, 30, 40, 45, 40};
+        int uniqueCount = 0;
+
+        for(int i = 0; i < array.length; i++){
+            boolean isUnique = true;
+
+            for(int j = 0; j < i; j++){
+                if(array[j] == array[i]){
+                    isUnique = false;
+                    break;
+                }
+            }
+
+            if(!isUnique){
+                continue;
+            }
+
+            boolean uniqueEle = true;
+
+            for(int k = i+1; k < array.length; k++){
+                if(array[k] == array[i]){
+                    uniqueEle = false;
+                    break;
+                }
+            }
+
+            if(uniqueEle){
+                uniqueCount++;
+            }
+        }
+
+        System.out.println("Unique elements count = " + uniqueCount);
+    }
+}
+
