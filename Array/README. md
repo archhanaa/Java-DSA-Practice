@@ -1,25 +1,22 @@
-# Arrays in Java
+# Arrays Practice (Day-2)
 
-An array is used to store multiple values of the same data type in one variable. 
-Array indexing starts from 0 and ends at length-1.
+Today I practiced basic and intermediate array problems to improve my logic building skills in Java.
 
-Example:
-int[] arr = {10, 20, 30, 40};
+### ✅ Programs Completed
+- Print array elements
+- Reverse an array
+- Find maximum element
+- Find minimum element
+- Count even and odd numbers
+- Sum of all elements
+- Linear search
+- Count how many elements are greater than a given key
+- Replace negative numbers with zero
+- Average of array elements
+- Count duplicate values
+- Count unique values
 
-We can access values using index:
-arr[0] → 10
+These problems helped me understand loop traversal, comparison logic, and handling duplicates in arrays.
 
-We can loop through the array using a for loop and print elements.
-
-Today I practiced:
-• Printing elements
-• Finding max/min
-• Reverse array
-• Second largest/smallest
-• Counting even/odd
-• Linear search
-• Checking if sorted
-
-Arrays feel clearer now and I'm becoming more confident with DSA basics.
 
 
