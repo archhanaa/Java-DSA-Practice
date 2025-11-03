@@ -1,0 +1,43 @@
+class CountDuplicates {
+    public static void main(String[] args) {
+
+        int[] array = {1, 12, 12, 23, 14, 23, 6, 7};
+        int duplicateCount = 0;
+
+        for(int i = 0; i < array.length; i++){
+
+            boolean alreadyCounted = false;
+
+            // Check if already counted
+            for(int j = 0; j < i; j++){
+                if(array[j] == array[i]){
+                    alreadyCounted = true;
+                    break;
+                }
+            }
+
+            if(alreadyCounted){
+                continue;
+            }
+
+            boolean isDuplicate = false;
+
+            // Check if this value appears again
+            for(int k = i + 1; k < array.length; k++){
+                if(array[k] == array[i]){
+                    isDuplicate = true;
+                    break;
+                }
+            }
+
+            if(isDuplicate){
+                duplicateCount++;
+            }
+        }
+
+        System.out.println("Duplicate elements count = " + duplicateCount);
+    }
+}
+
+            
+
